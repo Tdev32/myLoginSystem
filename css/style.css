@@ -1,0 +1,19 @@
+html, body {
+  height: 100%;
+}
+
+.footer {
+  top: 100vh;
+  position: sticky;
+}
+
+.txt {
+  display: block;
+  margin-left: auto;
+}
+
+h1.home {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
