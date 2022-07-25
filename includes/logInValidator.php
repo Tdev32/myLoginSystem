@@ -56,8 +56,12 @@ if (isset($_POST['submit'])) {
     }
   }
 
-  /** SUCCESS message **/
+  /** SUCCESS **/
   if (!array_filter($errors)) {
+    session_start();
+    $_SESSION['userID'] = $row['id'];
+    $_SESSION['userName'] = $row['username'];
+
     header("Location: ../views/home.php");
   }
 }

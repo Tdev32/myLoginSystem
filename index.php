@@ -42,7 +42,7 @@
 
 
       <button class="btn btn-primary w-100" name="submit">Register</button>
-      <a class="text-secondary" href="views/sign_in.php">Or login here</a>
+      <a class="text-secondary" href="views/login.php">Or login here</a>
 
     </form>
   </div>

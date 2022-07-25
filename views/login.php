@@ -1,17 +1,17 @@
 <?php
-  $currentPage = 'Sign-Up';
+  $currentPage = 'Login';
   $styleLink = '../css/style.css';
 
   include '../includes/config.php';
-  include '../includes/logInValidator.php';
+  include '../includes/loginValidator.php';
   include 'header.php';
 ?>
 
 <main>
   <div class="container">
-    <h1 class="mt-3">Sign In</h1>
+    <h1 class="mt-3">Login</h1>
     
-    <form action="sign_in.php" method="post">
+    <form action="login.php" method="post">
       <div class="form-group">
         <label>Username</label>  
         <input type="text" class="form-control" name="usernameOremail" value="<?php echo $account ?>" />
