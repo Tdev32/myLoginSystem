@@ -32,8 +32,10 @@
       <button type="submit" class="btn btn-primary w-100" name="submit">Sign In</button>
 
 
-      <a class="text-secondary" href="new_password.php">Forgot password?</a>
-      <a class="text-secondary ml-4" href="../index.php">Register here</a>
+      <div class="d-flex justify-content-between">
+        <a class="text-secondary" href="new_password.php">Forgot password?</a>
+        <a class="text-secondary" href="../index.php">Register here</a>
+      </div>
     </form>
   </div>
 </main>

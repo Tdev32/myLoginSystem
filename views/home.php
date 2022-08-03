@@ -18,7 +18,7 @@
   ?>
   <br />
   <form action="../includes/logout.php" method="post">
-    <button type="submit" name="submit" class="btn btn-primary w-30 mt-4">Log out</button>
+    <button type="submit" name="submit" class="btn btn-secondary w-30 mt-4">Log out</button>
   </form>
 </main>
 
