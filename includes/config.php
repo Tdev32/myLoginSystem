@@ -1,10 +1,10 @@
 <?php
 
 // Database
-$dbHost = 'sql308.epizy.com';
-$dbUser = 'epiz_32314996';
-$dbPass = 'ojjPwWNBNaRm';
-$dbName = 'epiz_32314996_loginsystem';
+$dbHost = 'localhost';        // sql308.epizy.com
+$dbUser = 'root';             // epiz_32314996';
+$dbPass = 'password00';       // ojjPwWNBNaRm';
+$dbName = 'login_system';     // epiz_32314996_loginsystem';
 
 try {
   $conn = mysqli_connect($dbHost, $dbUser, $dbPass, $dbName);
