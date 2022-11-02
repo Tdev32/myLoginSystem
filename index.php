@@ -11,7 +11,7 @@
 
 <main>
   <div class="container">
-    <h1 class="mt-3">Registration</h1>
+    <h1 class="mt-3">Create an account</h1>
     <div class="<?php echo $successToggle ?> p-2 my-2 rounded alert-success"><?php echo $success ?></div>
 
     <form action="index.php" method="post">

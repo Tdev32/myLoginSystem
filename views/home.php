@@ -10,15 +10,13 @@
   }
 ?>
 
-<main>
-  <h1 class="home">You are now logged in!</h1>
+<main class="container">
+  <h1 class="home mt-5">You are now logged in!</h1>
 
-  <?php
-    print_r($_SESSION);
-  ?>
-  <br />
   <form action="../includes/logout.php" method="post">
-    <button type="submit" name="submit" class="btn btn-secondary w-30 mt-4">Log out</button>
+    <div class="d-flex">
+      <button type="submit" name="submit" class="btn btn-outline-dark mt-3 w-40 mx-auto">Log out</button>
+    </div>
   </form>
 </main>
 
